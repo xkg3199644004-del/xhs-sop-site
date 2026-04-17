@@ -3,675 +3,512 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>2026 实习生 SOP - 小红书二奢商家运营</title>
+  <title>小红书二奢商家运营 · 实习生SOP</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍠</text></svg>">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Sidebar Navigation -->
-  <nav class="sidebar" id="sidebar">
-    <div class="sidebar-header">
-      <div class="logo">🍠</div>
-      <h2>2026 实习生 SOP</h2>
-      <p class="subtitle">小红书二奢商家运营</p>
-    </div>
-    <ul class="nav-list">
-      <li><a href="#welcome" class="nav-link">欢迎</a></li>
-      <li><a href="#todo" class="nav-link">一、To Do List</a></li>
-      <li><a href="#prework" class="nav-link">二、Pre Work</a></li>
-      <li><a href="#helpermap" class="nav-link">三、Helper Map</a></li>
-      <li><a href="#basicsop" class="nav-link">四、Basic SOP</a>
-        <ul class="sub-nav">
-          <li><a href="#basicsop-1" class="nav-link">1. 导流违规</a></li>
-          <li><a href="#basicsop-2" class="nav-link">2. 直播限流/店铺违规</a></li>
-          <li><a href="#basicsop-3" class="nav-link">3. 获取账号与店铺ID</a></li>
-          <li><a href="#basicsop-4" class="nav-link">4. 商家反馈流量不好</a></li>
-          <li><a href="#basicsop-5" class="nav-link">5. 店铺主体变更</a></li>
-          <li><a href="#basicsop-6" class="nav-link">6. 怎么联系商服</a></li>
-          <li><a href="#basicsop-7" class="nav-link">7. 商业化开白</a></li>
-          <li><a href="#basicsop-8" class="nav-link">8. 类目邀约申请</a></li>
-          <li><a href="#basicsop-9" class="nav-link">9. QIC加白与取消</a></li>
-          <li><a href="#basicsop-10" class="nav-link">10. 投广&投流</a></li>
-          <li><a href="#basicsop-11" class="nav-link">11. 10w+大场投流</a></li>
-          <li><a href="#basicsop-12" class="nav-link">12. 负反馈处置</a></li>
-          <li><a href="#basicsop-13" class="nav-link">13. 海外直播申请</a></li>
-          <li><a href="#basicsop-14" class="nav-link">14. 大场投流</a></li>
-        </ul>
-      </li>
-      <li><a href="#advancedsop" class="nav-link">五、Advanced SOP</a></li>
-      <li><a href="#terms" class="nav-link">六、Technical Terms</a></li>
-      <li><a href="#qa" class="nav-link">七、Common Q&A</a></li>
-    </ul>
-    <div class="sidebar-footer">
-      <p>文档共建 | 来了小红书一遭，总要留下点什么吧 😄</p>
-    </div>
-  </nav>
 
-  <!-- Toggle button for mobile -->
-  <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
+  <!-- 顶部导航栏 -->
+  <header class="header">
+    <div class="header-left">
+      <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle sidebar">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <div class="brand">
+        <span class="brand-logo">🍠</span>
+        <span class="brand-text">小红书二奢商家运营</span>
+      </div>
+    </div>
+    <div class="header-center">
+      <div class="search-box" id="searchBox">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M11 11l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <input type="text" placeholder="搜索文档..." id="searchInput">
+        <kbd>Ctrl K</kbd>
+      </div>
+    </div>
+    <div class="header-right">
+      <a href="https://github.com/xkg3199644004-del/xhs-sop-site" target="_blank" class="github-link" aria-label="GitHub">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+        </svg>
+      </a>
+    </div>
+  </header>
 
-  <!-- Main Content -->
-  <main class="main-content">
-    <!-- Welcome -->
-    <section id="welcome" class="section welcome-section">
-      <div class="welcome-content">
-        <h1>🍠 欢迎来到小红书～</h1>
-        <p class="lead">希望这个SOP文档可以帮到你，迅速上手工作。</p>
-        <div class="welcome-box">
+  <div class="layout">
+    <!-- 左侧导航目录 -->
+    <aside class="sidebar" id="sidebar">
+      <nav class="sidebar-nav">
+        <div class="nav-group">
+          <div class="nav-group-title">快速开始</div>
+          <a href="#welcome" class="nav-link active" data-page="welcome"><span class="nav-icon">🏠</span> 欢迎</a>
+          <a href="#todo" class="nav-link" data-page="todo"><span class="nav-icon">📋</span> To Do List</a>
+          <a href="#prework" class="nav-link" data-page="prework"><span class="nav-icon">📖</span> Pre Work</a>
+          <a href="#helpermap" class="nav-link" data-page="helpermap"><span class="nav-icon">🗺️</span> Helper Map</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">基础流程</div>
+          <a href="#basicsop" class="nav-link" data-page="basicsop"><span class="nav-icon">📝</span> Basic SOP 总览</a>
+          <a href="#basicsop-1" class="nav-link nav-sub" data-page="basicsop-1">导流违规</a>
+          <a href="#basicsop-2" class="nav-link nav-sub" data-page="basicsop-2">直播限流/店铺违规</a>
+          <a href="#basicsop-3" class="nav-link nav-sub" data-page="basicsop-3">获取账号与店铺ID</a>
+          <a href="#basicsop-4" class="nav-link nav-sub" data-page="basicsop-4">商家反馈流量不好</a>
+          <a href="#basicsop-5" class="nav-link nav-sub" data-page="basicsop-5">店铺主体变更</a>
+          <a href="#basicsop-6" class="nav-link nav-sub" data-page="basicsop-6">怎么联系商服</a>
+          <a href="#basicsop-7" class="nav-link nav-sub" data-page="basicsop-7">商业化开白</a>
+          <a href="#basicsop-8" class="nav-link nav-sub" data-page="basicsop-8">类目邀约申请</a>
+          <a href="#basicsop-9" class="nav-link nav-sub" data-page="basicsop-9">QIC加白与取消</a>
+          <a href="#basicsop-10" class="nav-link nav-sub" data-page="basicsop-10">投广&投流</a>
+          <a href="#basicsop-11" class="nav-link nav-sub" data-page="basicsop-11">10w+大场投流</a>
+          <a href="#basicsop-12" class="nav-link nav-sub" data-page="basicsop-12">负反馈处置</a>
+          <a href="#basicsop-13" class="nav-link nav-sub" data-page="basicsop-13">海外直播申请</a>
+          <a href="#basicsop-14" class="nav-link nav-sub" data-page="basicsop-14">大场投流</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-group-title">进阶</div>
+          <a href="#advancedsop" class="nav-link" data-page="advancedsop"><span class="nav-icon">🚀</span> Advanced SOP</a>
+          <a href="#terms" class="nav-link" data-page="terms"><span class="nav-icon">📚</span> 专业术语</a>
+          <a href="#qa" class="nav-link" data-page="qa"><span class="nav-icon">❓</span> 常见问题</a>
+        </div>
+      </nav>
+    </aside>
+
+    <!-- 右侧内容区 -->
+    <main class="content" id="content">
+
+      <!-- ===== 欢迎页 ===== -->
+      <div class="page active" id="page-welcome" data-page="welcome">
+        <div class="page-header">
+          <h1>🍠 欢迎来到小红书</h1>
+          <p class="page-desc">二奢商家运营实习生 SOP 文档，帮你快速上手工作</p>
+        </div>
+        <div class="welcome-hero">
           <p>希望你也可以参与文档共建，来了小红书一遭，总要留下点什么吧（笑）</p>
         </div>
-      </div>
-    </section>
-
-    <!-- To Do List -->
-    <section id="todo" class="section">
-      <h1>一、To Do List</h1>
-      <div class="resource-card">
-        <h3>📄 小红书二奢商家经营方法一本通</h3>
-        <p>这个文档是对外的，商家拿到的就是这个，商家可能遇到的问题就在这里面。</p>
-        <blockquote>"之后你慢慢接触越来越多了，也可以再继续善优化这份文档，把一些商家关注在意的方向、提问多的问题点，都可以记下来 → 找答案放上去。"</blockquote>
-      </div>
-
-      <div class="resource-card">
-        <h3>🍠 二奢商家运营百科全书（2026）</h3>
-        <p>整合材料后有了这个文档，会同步给商家，且文档动态更新。</p>
-      </div>
-
-      <div class="resource-card">
-        <h3>📚 商服Redoc知识库（对外）</h3>
-        <p>这个里面几乎包含了你在实习期间可能遇到所有（非二奢专业）问题。如果对一些东西不知道在哪，先查小手机聊天历史，再查询hi里面的文档资源，最后再问奥汀。</p>
-      </div>
-
-      <h2>日常工作</h2>
-      <ol class="task-list">
-        <li>解答商家疑问</li>
-        <li>类目定邀资质审查</li>
-        <li>直播卡与笔记投流</li>
-        <li>完善商家运营文档</li>
-        <li>商家违规查询与解罚</li>
-        <li>奥汀安排的其他工作</li>
-      </ol>
-    </section>
-
-    <!-- Pre Work -->
-    <section id="prework" class="section">
-      <h1>二、Pre Work</h1>
-
-      <h2>（1）迅速入门</h2>
-      <div class="resource-card">
-        <h3>📊 二奢电商年度规划</h3>
-        <p>阅读了解整体规划方向</p>
-      </div>
-      <div class="resource-card">
-        <h3>📺 商业&电商业务经验交流分享会</h3>
-        <p>相关材料和录屏，包含四个部门分享内容：</p>
-        <ul>
-          <li><strong>电商行业三部</strong> — 查莉分享</li>
-          <li><strong>电商行业五部</strong> — 优莱分享</li>
-          <li><strong>创作者营销与商业服务</strong> — 吉永分享</li>
-          <li><strong>电商行业一部</strong> — 小骨分享</li>
-        </ul>
-      </div>
-
-      <h2>（2）浏览器</h2>
-      <div class="tip-box">
-        <p><strong>Chrome：</strong> 让奥汀用hi扫个码，用到RED BI、鹰眼、曙光等平台</p>
-        <p><strong>Edge：</strong> 你登自己的号，完成其他个人工作</p>
-      </div>
-
-      <h2>（3）周会</h2>
-      <p>每周周会时间为 <strong>周一上午 10:30-12:00</strong>，会围绕 to do、weekly highlight、项目进度等按模块汇报。</p>
-      <p>需提前准备二奢周会文档，里面有很多以前的行业洞察和分析，可以阅读学习。</p>
-
-      <h2>（4）平台工具</h2>
-      <div class="platform-grid">
-        <div class="platform-card">
-          <h3>🤖 ALL-IN</h3>
-          <p>小红书自己的AI平台（现在用龙虾）</p>
-        </div>
-        <div class="platform-card">
-          <h3>📚 电商学习中心</h3>
-          <p>百科全书，商家的问题可以先在此搜索</p>
-        </div>
-        <div class="platform-card">
-          <h3>📊 RedBI</h3>
-          <p>直播间数据查询工具（所谓看板）</p>
-        </div>
-        <div class="platform-card">
-          <h3>🔍 鹰眼</h3>
-          <p>电商运营中心，可以查看商家信息</p>
-        </div>
-        <div class="platform-card">
-          <h3>💡 曙光</h3>
-          <p>预告笔记、直播卡投流，直播间数据查询</p>
-        </div>
-        <div class="platform-card">
-          <h3>🌌 苍穹</h3>
-          <p>查询商家信息，包括账号ID、店铺ID、商家违规处罚信息、交易信息等</p>
+        <div class="card-grid">
+          <div class="info-card" onclick="navigateTo('todo')"><div class="card-icon">📋</div><h3>To Do List</h3><p>日常工作清单与必备文档</p></div>
+          <div class="info-card" onclick="navigateTo('prework')"><div class="card-icon">📖</div><h3>Pre Work</h3><p>快速入门、平台工具、周会准备</p></div>
+          <div class="info-card" onclick="navigateTo('helpermap')"><div class="card-icon">🗺️</div><h3>Helper Map</h3><p>遇到问题时的快速定位指南</p></div>
+          <div class="info-card" onclick="navigateTo('basicsop')"><div class="card-icon">📝</div><h3>Basic SOP</h3><p>14个基础操作流程，覆盖日常工作场景</p></div>
+          <div class="info-card" onclick="navigateTo('advancedsop')"><div class="card-icon">🚀</div><h3>Advanced SOP</h3><p>店铺查询与数据分析进阶技能</p></div>
+          <div class="info-card" onclick="navigateTo('terms')"><div class="card-icon">📚</div><h3>专业术语</h3><p>23个行业术语速查表</p></div>
         </div>
       </div>
 
-      <h2>（5）数分</h2>
-      <p>数据分析通常用到两个工具，一个是 RED BI，一个是 SQL。</p>
-      <div class="tip-box">
-        <p>如果以前没用过SQL，可以看 <strong>SQL使用傻瓜书</strong> 简单入门</p>
-      </div>
-
-      <h2>（6）其他（必看！！！）</h2>
-      <div class="warning-box">
-        <ul>
-          <li>奥汀实习生主要做的是 <strong>商家运营</strong>，主要面向的是商家，在群里还有 <strong>商业化</strong> 的小伙伴，他们主要做的东西一般不会涉及到。</li>
-          <li>整个行业七部，有 <strong>三个赛道</strong>：教育、二奢、图书。但是我们一般不会和教育、图书产生联系，我们通常与二奢商业化的负责团队一起工作</li>
-          <li><strong>重点商家</strong> 名单是动态的，一批一批的。需要用BI查。一般范围是所有B4+，重中之重是B5、B6。</li>
-          <li>查询商家违规不要告诉商家他们被 <strong>误判</strong>，因为他们情绪不稳定很容易 <strong>跳脚</strong></li>
-          <li><strong>命中qic质检</strong> 范围的商品，会在前端透出【先鉴后发】的标识，这个命中是系统判定，系统要求质检就必须质检</li>
-          <li><strong>类目</strong> 相关问题可以查看：2026商品工业类目调整及准入概览、交易类目调整/治理规则&产品改造</li>
-          <li><strong>商家红黑榜！！！！！</strong> 帮你避雷烦人商家</li>
-          <li>目前的品牌有这些：二奢闪拍重点品牌&商家</li>
-          <li>二奢行业知识库：<code>https://liiin96.github.io/xhs-knowledge-hub/</code></li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Helper Map -->
-    <section id="helpermap" class="section">
-      <h1>三、Helper Map</h1>
-      <p class="lead">遇到问题时的快速定位指南</p>
-
-      <div class="helper-grid">
-        <div class="helper-card highlight-yellow">
-          <h3>📝 笔记、群聊违规核实</h3>
-          <p>通过审核百科全薯右侧组件查询账号违规情况</p>
+      <!-- ===== To Do List ===== -->
+      <div class="page" id="page-todo" data-page="todo">
+        <div class="page-header"><h1>📋 To Do List</h1><p class="page-desc">日常工作与必备文档</p></div>
+        <div class="doc-cards">
+          <div class="doc-card">
+            <div class="doc-card-header"><span class="doc-tag">对外</span><h3>📄 小红书二奢商家经营方法一本通</h3></div>
+            <p>这个文档是对外的，商家拿到的就是这个，商家可能遇到的问题就在这里面。</p>
+            <blockquote>"之后你慢慢接触越来越多了，也可以再继续善优化这份文档，把一些商家关注在意的方向、提问多的问题点，都可以记下来 → 找答案放上去。"</blockquote>
+          </div>
+          <div class="doc-card">
+            <div class="doc-card-header"><span class="doc-tag">动态更新</span><h3>🍠 二奢商家运营百科全书（2026）</h3></div>
+            <p>整合材料后有了这个文档，会同步给商家，且文档动态更新。</p>
+          </div>
+          <div class="doc-card">
+            <div class="doc-card-header"><span class="doc-tag">知识库</span><h3>📚 商服Redoc知识库（对外）</h3></div>
+            <p>几乎包含了你在实习期间可能遇到所有（非二奢专业）问题。如果对一些东西不知道在哪，先查小手机聊天历史，再查询hi里面的文档资源，最后再问奥汀。</p>
+          </div>
         </div>
-        <div class="helper-card highlight-yellow">
-          <h3>⚠️ 假货问题</h3>
-          <p>涉及假货相关的投诉与处理流程</p>
-        </div>
-        <div class="helper-card highlight-yellow">
-          <h3>💰 交易问题</h3>
-          <p>关键词：同人、交易治理</p>
-        </div>
-        <div class="helper-card highlight-yellow">
-          <h3>📺 直播违规/流量异常</h3>
-          <p>直播违规行为核实、直播流量有无异常</p>
-        </div>
-        <div class="helper-card">
-          <h3>🔧 其他问题</h3>
-          <p>其他类型问题的处理路径</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Basic SOP -->
-    <section id="basicsop" class="section">
-      <h1>四、Basic SOP</h1>
-
-      <div id="basicsop-1" class="sop-item">
-        <h2>（1）导流违规</h2>
-        <ol>
-          <li>商家自行申诉</li>
-          <li>自行申诉失败，找百科全薯代客诉</li>
-        </ol>
-        <div class="warning-box">
-          <p>⚠️ 没有其他解罚手段，<strong>导流违规是平台红线，不可触碰！</strong></p>
+        <h2>日常工作清单</h2>
+        <div class="task-list">
+          <div class="task-item"><span class="task-num">1</span> 解答商家疑问</div>
+          <div class="task-item"><span class="task-num">2</span> 类目定邀资质审查</div>
+          <div class="task-item"><span class="task-num">3</span> 直播卡与笔记投流</div>
+          <div class="task-item"><span class="task-num">4</span> 完善商家运营文档</div>
+          <div class="task-item"><span class="task-num">5</span> 商家违规查询与解罚</div>
+          <div class="task-item"><span class="task-num">6</span> 奥汀安排的其他工作</div>
         </div>
       </div>
 
-      <div id="basicsop-2" class="sop-item">
-        <h2>（2）直播限流、店铺违规</h2>
-        <ol>
-          <li>让商家发账号ID和店铺ID
+      <!-- ===== Pre Work ===== -->
+      <div class="page" id="page-prework" data-page="prework">
+        <div class="page-header"><h1>📖 Pre Work</h1><p class="page-desc">入职准备与平台工具</p></div>
+        <h2>（1）迅速入门</h2>
+        <div class="doc-cards">
+          <div class="doc-card"><h3>📊 二奢电商年度规划</h3><p>阅读了解整体规划方向</p></div>
+          <div class="doc-card">
+            <h3>📺 商业&电商业务经验交流分享会</h3>
+            <p>相关材料和录屏，包含四个部门分享内容：</p>
             <ul>
-              <li>提取账号UID：通过【APP - 我 - 右上角"..."- 复制链接】粘贴出来即可</li>
-              <li>提取店铺方法：千帆后台【我的】找</li>
+              <li><strong>电商行业三部</strong> — 查莉分享</li>
+              <li><strong>电商行业五部</strong> — 优莱分享</li>
+              <li><strong>创作者营销与商业服务</strong> — 吉永分享</li>
+              <li><strong>电商行业一部</strong> — 小骨分享</li>
             </ul>
-          </li>
-          <li>找hi上的【社区审核百科全薯】右边组件，查账号违规情况</li>
-          <li>找【直播审核值班服务号】，问是否有违规导致直播间限流</li>
-        </ol>
+          </div>
+        </div>
+        <h2>（2）浏览器</h2>
         <div class="tip-box">
-          <p><strong>Tips：</strong>所有有关商家咨询流量不好、违规等行为都可以通过该方式进行查询，如果没有解决或者想查询详细信息可以看【五-(1)店铺信息查询】。</p>
+          <p><strong>Chrome：</strong> 让奥汀用hi扫个码，用到RED BI、鹰眼、曙光等平台</p>
+          <p><strong>Edge：</strong> 你登自己的号，完成其他个人工作</p>
         </div>
-      </div>
-
-      <div id="basicsop-3" class="sop-item">
-        <h2>（3）获取账号与店铺ID</h2>
-        <div class="tip-box">
-          <p><strong>账号ID获取方式：</strong>点击主页右上角 ➡️ 选择复制链接 ➡️ 转发到聊天框 ➡️ 点击链接 ➡️ 复制链接 ➡️ 再转发到聊天框 ➡️ 截取ID这一部分（位于 profile/ 和 ? 之间的这串字符，就是所需ID）</p>
-          <p><strong>店铺ID获取方式：</strong>点击店铺，选择右上角...同上</p>
-          <p><strong>ps.</strong> 建议直接让商家发链接，由小助手截取ID</p>
+        <h2>（3）周会</h2>
+        <p>每周周会时间为 <strong>周一上午 10:30-12:00</strong>，会围绕 to do、weekly highlight、项目进度等按模块汇报。需提前准备二奢周会文档。</p>
+        <h2>（4）平台工具</h2>
+        <div class="tool-grid">
+          <div class="tool-card"><div class="tool-icon">🤖</div><h3>ALL-IN</h3><p>小红书自己的AI平台（现在用龙虾）</p></div>
+          <div class="tool-card"><div class="tool-icon">📚</div><h3>电商学习中心</h3><p>百科全书，商家的问题可以先在此搜索</p></div>
+          <div class="tool-card"><div class="tool-icon">📊</div><h3>RedBI</h3><p>直播间数据查询工具（所谓看板）</p></div>
+          <div class="tool-card"><div class="tool-icon">🔍</div><h3>鹰眼</h3><p>电商运营中心，可以查看商家信息</p></div>
+          <div class="tool-card"><div class="tool-icon">💡</div><h3>曙光</h3><p>预告笔记、直播卡投流，直播间数据查询</p></div>
+          <div class="tool-card"><div class="tool-icon">🌌</div><h3>苍穹</h3><p>查询商家信息，包括账号ID、店铺ID、违规处罚、交易信息等</p></div>
         </div>
-      </div>
-
-      <div id="basicsop-4" class="sop-item">
-        <h2>（4）商家反馈流量不好</h2>
-        <ol>
-          <li>提高笔记发布频次，绑定直播预告 — 提升账号整体曝光</li>
-          <li>直播间调整封面图片以及标题，更吸睛更突出利益点 — 提升直播间点击进房</li>
-          <li>直播间设置福利款漏价款、定点放漏 — 提升直播间留人率</li>
-          <li>每个整点自行补单，次日再退 — 优化直播间数据，提升算法推流</li>
-        </ol>
-        <div class="tip-box">
-          <p><strong>Tips：</strong>想做店铺诊断可以看【五-(2)】店铺数据分析，这个属于进阶技能</p>
-        </div>
-      </div>
-
-      <div id="basicsop-5" class="sop-item">
-        <h2>（5）店铺主体变更、更换营业执照</h2>
-        <ol>
-          <li>
-            <p>需要收集商家的信息（发这段话术，一直到注意结束）：</p>
-            <div class="script-box">
-              <p><strong>【主体变更入口开白】</strong>提前给我以下信息，我这边走特批申请，中台固定每周二操作打开主体变更的入口；</p>
-              <ul>
-                <li>账号ID（userid）</li>
-                <li>店铺ID</li>
-                <li>店铺名称</li>
-                <li>变更理由</li>
-              </ul>
-              <p><strong>注意：</strong></p>
-              <ol>
-                <li>变更当月不能操作提现，如果已经提过现则下个月再做申请</li>
-                <li>开白入口后按照链接里的流程步骤操作就行（参考小红书电商学习中心）</li>
-              </ol>
-            </div>
-          </li>
-          <li>申请商家登记链接：二奢主体变更商家登记</li>
-          <li>OA申请链接：Redflow
-            <div class="tip-box">
-              <p>备注：</p>
-              <ul>
-                <li>检查账号ID和店铺ID等信息后填OA</li>
-                <li>特批类型：入驻后：店铺主体变更</li>
-                <li>店铺主题变更开白场景选择：跳过店铺类型校验</li>
-              </ul>
-            </div>
-          </li>
-          <li>一周如果没有反馈，可以填催审登记表</li>
-          <li>审核通过后发送：【审核通过了，可以按照链接继续操作变更了】</li>
-        </ol>
-        <p><strong>ps.</strong> 更换营业执照就要走这个流程</p>
-      </div>
-
-      <div id="basicsop-6" class="sop-item">
-        <h2>（6）怎么联系商服</h2>
-        <div class="tip-box">
-          <p><strong>APP端找客服路径：</strong>小红书APP - 右下角"我" - 左上角三栏 - 专业号中心 - 右上角"耳机"图标 - 发送"人工" - 点击"需要客服帮助" - 点击"联系人工" - 联系人工后选择相对应的问题即可跳转到对应客服</p>
-          <p><strong>PC端找商服路径：</strong>登陆商家管理后台（千帆） - 右下角"帮助"图标 - 即可联系商服进行沟通</p>
-        </div>
-      </div>
-
-      <div id="basicsop-7" class="sop-item">
-        <h2>（7）商业化开白</h2>
-        <div class="script-box">
-          <p>发送下面的话术：</p>
-          <ol>
-            <li>需要是企业主体、注册时间不少于三年，以及其他条件。都满足的话可以找商业化老师开白认证回收/售卖资质</li>
-            <li>具体的看下这份材料：🍠小红书二奢入驻全流程 V2</li>
-          </ol>
-        </div>
-        <p>可以直接看《百科全书》入驻的第五部分</p>
-      </div>
-
-      <div id="basicsop-8" class="sop-item">
-        <h2>（8）类目邀约申请（定邀）</h2>
-
-        <h3>老店入驻</h3>
-        <p>是否符合定邀资质需要check两个点：</p>
-        <ol>
-          <li>是否满足个体店或普企店（个人店不允准入，尽快去做主体升级）</li>
-          <li>在BI查他的二奢类目近30天dgmv是否≥5w</li>
-        </ol>
-
-        <h3>新店或原其他类目</h3>
-        <p>想做二奢就必须满足要求的资质（店铺类型和二奢类目交易门槛），同时商品挂到二奢类目底下走QIC鉴定。看看商家是否接受，若接受走下面的具体流程</p>
-
-        <h3>新店具体流程</h3>
-        <ol>
-          <li>先确认一下店铺、专业号是否完成操作</li>
-          <li>先看文档，里面的步骤很清楚，具体的准入要求都在这里了，先申请，然后把补充信息和营业执照发给我，我这边帮您通过</li>
-          <li>登陆鹰眼检索商家名称完成定邀申请</li>
-          <li>提示商家手动添加新类目（<strong>商家很容易忘！！！</strong>），然后进新的群聊，告诉他们留意群消息，重要通知都在群里</li>
-          <li>将信息登记在：登记表单1、登记表单2（现在使用）</li>
-          <li>3天登陆奥汀OA，看一下是否有被驳回的，如果有，按照要求提示商家进行修改</li>
-        </ol>
-
-        <div class="highlight-box">
-          <h3>⚡ 先给一点提示：</h3>
+        <h2>（5）数分</h2>
+        <p>数据分析通常用到两个工具，一个是 RED BI，一个是 SQL。如果以前没用过SQL，可以看 <strong>SQL使用傻瓜书</strong> 简单入门。</p>
+        <h2>（6）其他（必看！！！）</h2>
+        <div class="warning-box">
           <ul>
-            <li><strong>流程：</strong>先看店铺信息、主营类目是否为二奢 ➡️ 输入信息、填写登记表单 ➡️ 询问其他经营平台情况 ➡️ 提交OA ➡️ OA查看未通过名单</li>
-            <li>要<strong>严格进行商家背调</strong>，包括但不限于收集商家仓库照片、其他平台链接、其他平台GMV截图、是否有违规记录等</li>
-            <li>在填写表单的时候<strong>注意用词</strong>，不要出现让人一看看不懂的词语，直白语言表述</li>
-            <li>表单中填写的申请ID是上一个界面生成的5位<strong>短ID</strong></li>
-          </ul>
-        </div>
-
-        <div class="highlight-box">
-          <h3>📋 表单填写的时候注意：</h3>
-          <ul>
-            <li>无其他经营平台，放【商家货架、仓库】必须有2张实体照片+证明</li>
-            <li>有其他经营平台且是同一主体，GMV放到【近6个月其他平台】，不需要写备注</li>
-            <li>有其他经营平台且是关联主体，GMV+关联证明放到【近6个月其他平台】这个位置，然后写：【备注：...】</li>
-            <li>有其他经营平台且是无关主体，GMV放到【近6个月其他平台】，然后写：【备注：...】</li>
-            <li>最下面要填写两个ID，然后到苍穹截取店铺图片补充到下面，其他特殊图片也放到这里</li>
+            <li>奥汀实习生主要做的是 <strong>商家运营</strong>，主要面向商家。群里还有 <strong>商业化</strong> 的小伙伴，他们做的东西一般不会涉及到。</li>
+            <li>整个行业七部有 <strong>三个赛道</strong>：教育、二奢、图书。我们通常与二奢商业化的负责团队一起工作。</li>
+            <li><strong>重点商家</strong> 名单是动态的。一般范围是所有B4+，重中之重是B5、B6。</li>
+            <li>查询商家违规不要告诉商家他们被 <strong>误判</strong>，因为他们情绪不稳定很容易 <strong>跳脚</strong>。</li>
+            <li><strong>命中qic质检</strong> 范围的商品，会在前端透出【先鉴后发】的标识。</li>
+            <li><strong>商家红黑榜！！！！！</strong> 帮你避雷烦人商家。</li>
           </ul>
         </div>
       </div>
 
-      <div id="basicsop-9" class="sop-item">
-        <h2>（9）QIC加白与取消</h2>
-        <p>QIC开白每两周进行一次，具体需求、话术如下：</p>
-        <div class="script-box">
-          <p>为了提高二奢重点商家经营效率、发货&履约时效、优化商家及用户体验，我们特向平台申请了二奢QIC白名单，进入白名单的商家无需再强制过平台QIC单单质检。前提是商家自身有自主送检能力，有长期稳定合作的质检机构，且同时满足门槛条件。</p>
-          <p><strong>白名单门槛及指标如下，我们会双周维度滚动跑数据，如果后续指标不达标，则会被自动剔除白名单，恢复单单质检：</strong></p>
+      <!-- ===== Helper Map ===== -->
+      <div class="page" id="page-helpermap" data-page="helpermap">
+        <div class="page-header"><h1>🗺️ Helper Map</h1><p class="page-desc">遇到问题时的快速定位指南</p></div>
+        <div class="helper-grid">
+          <div class="helper-card highlight-yellow"><div class="helper-icon">📝</div><h3>笔记、群聊违规核实</h3><p>通过审核百科全薯右侧组件查询账号违规情况</p></div>
+          <div class="helper-card highlight-yellow"><div class="helper-icon">⚠️</div><h3>假货问题</h3><p>涉及假货相关的投诉与处理流程</p></div>
+          <div class="helper-card highlight-yellow"><div class="helper-icon">💰</div><h3>交易问题</h3><p>关键词：同人、交易治理</p></div>
+          <div class="helper-card highlight-yellow"><div class="helper-icon">📺</div><h3>直播违规/流量异常</h3><p>直播违规行为核实、直播流量有无异常</p></div>
+          <div class="helper-card"><div class="helper-icon">🔧</div><h3>其他问题</h3><p>其他类型问题的处理路径</p></div>
+        </div>
+      </div>
+
+      <!-- ===== Basic SOP 总览 ===== -->
+      <div class="page" id="page-basicsop" data-page="basicsop">
+        <div class="page-header"><h1>📝 Basic SOP</h1><p class="page-desc">基础操作流程 — 左侧目录选择具体流程</p></div>
+        <div class="sop-overview-grid">
+          <div class="sop-overview-card" onclick="navigateTo('basicsop-1')"><span class="sop-num">01</span><h3>导流违规</h3><p>商家自行申诉与代客诉流程</p></div>
+          <div class="sop-overview-card" onclick="navigateTo('basicsop-2')"><span class="sop-num">02</span><h3>直播限流/店铺违规</h3><p>限流原因排查与违规查询</p></div>
+          <div class="sop-overview-card" onclick="navigateTo('basicsop-3')"><span class="sop-num">03</span><h3>获取账号与店铺ID</h3><p>UID与店铺ID提取方法</p></div>
+          <div class="sop-overview-card" onclick="navigateTo('basicsop-4')"><span class="sop-num">04</span><h3>商家反馈流量不好</h3><p>提升曝光与优化直播间数据</p></div>
+          <div class="sop-overview-card" onclick="navigateTo('basicsop-5')"><span class="sop-num">05</span><h3>店铺主体变更</h3><p>主体变更入口开白与OA申请</p></div>
+          <div class="sop-overview-card" onclick="navigateTo('basicsop-6')"><span class="sop-num">06</span><h3>怎么联系商服</h3><p>APP端与PC端找客服路径</p></div>
+          <div class="sop-overview-card" onclick="navigateTo('basicsop-7')"><span class="sop-num">07</span><h3>商业化开白</h3><p>企业认证与投广资质开白</p></div>
+          <div class="sop-overview-card" onclick="navigateTo('basicsop-8')"><span class="sop-num">08</span><h3>类目邀约申请</h3><p>老店/新店定邀流程与表单填写</p></div>
+          <div class="sop-overview-card" onclick="navigateTo('basicsop-9')"><span class="sop-num">09</span><h3>QIC加白与取消</h3><p>QIC白名单门槛与操作流程</p></div>
+          <div class="sop-overview-card" onclick="navigateTo('basicsop-10')"><span class="sop-num">10</span><h3>投广&投流</h3><p>流量卡、商业化投广与扶持</p></div>
+          <div class="sop-overview-card" onclick="navigateTo('basicsop-11')"><span class="sop-num">11</span><h3>10w+大场投流</h3><p>大场统计与导入流程（旧）</p></div>
+          <div class="sop-overview-card" onclick="navigateTo('basicsop-12')"><span class="sop-num">12</span><h3>负反馈处置</h3><p>核实与恶意差评申请解除</p></div>
+          <div class="sop-overview-card" onclick="navigateTo('basicsop-13')"><span class="sop-num">13</span><h3>海外直播申请</h3><p>OA提报字段与材料</p></div>
+          <div class="sop-overview-card" onclick="navigateTo('basicsop-14')"><span class="sop-num">14</span><h3>大场投流</h3><p>直播卡与笔记投流每日操作</p></div>
+        </div>
+      </div>
+
+      <!-- ===== Basic SOP 子页面 ===== -->
+      <div class="page" id="page-basicsop-1" data-page="basicsop-1">
+        <div class="page-header"><h1>（1）导流违规</h1><button class="back-btn" onclick="navigateTo('basicsop')">← 返回Basic SOP</button></div>
+        <div class="sop-detail">
+          <ol><li>商家自行申诉</li><li>自行申诉失败，找百科全薯代客诉</li></ol>
+          <div class="warning-box"><p>⚠️ 没有其他解罚手段，<strong>导流违规是平台红线，不可触碰！</strong></p></div>
+        </div>
+      </div>
+
+      <div class="page" id="page-basicsop-2" data-page="basicsop-2">
+        <div class="page-header"><h1>（2）直播限流、店铺违规</h1><button class="back-btn" onclick="navigateTo('basicsop')">← 返回Basic SOP</button></div>
+        <div class="sop-detail">
           <ol>
-            <li>主营类目为「二手奢侈品」</li>
-            <li>15天订单量≥10</li>
-            <li>14天正品质疑（就是假货售后）=0</li>
-            <li>近30天GMV≥20万</li>
-            <li>店铺分≥4.6</li>
-            <li>具备自主送检能力</li>
+            <li>让商家发账号ID和店铺ID
+              <ul><li>提取账号UID：通过【APP - 我 - 右上角"..."- 复制链接】粘贴出来即可</li>
+              <li>提取店铺方法：千帆后台【我的】找</li></ul>
+            </li>
+            <li>找hi上的【社区审核百科全薯】右边组件，查账号违规情况</li>
+            <li>找【直播审核值班服务号】，问是否有违规导致直播间限流</li>
           </ol>
-          <p>咱家目前是满足门槛条件的，但也充分考虑到商家的自主意向，可以选择申请白名单，也可以继续走平台QIC流程，加白后就全店免检了，没办法按订单维度选择是否送检。要送检的话只能你们自己线下送，线上就不会同步鉴定流程和结果了。</p>
-          <p><strong>【请回复：是否申请加白免检】</strong></p>
-        </div>
-
-        <h3>注意事项</h3>
-        <ul>
-          <li>目前为止（2026.1.30）开白店铺没有标识（后续更新）</li>
-          <li>生效时间为当日，但一般反馈为下周一</li>
-          <li>商品列表不需要更改</li>
-          <li>取消开白的名单统计到表格中，同时上报给奥汀，奥汀会反馈给【治理】</li>
-        </ul>
-        <div class="tip-box">
-          <p><strong>ps：</strong>名单两周一次，目前在讨论是否会取消QIC加白，等待ing（时间戳-2026年2月10日）</p>
+          <div class="tip-box"><p><strong>Tips：</strong>所有有关商家咨询流量不好、违规等行为都可以通过该方式进行查询，详细信息见【Advanced SOP - 店铺信息查询】。</p></div>
         </div>
       </div>
 
-      <div id="basicsop-10" class="sop-item">
-        <h2>（10）投广&投流</h2>
-        <ol>
-          <li><strong>流量卡</strong>可以自己在千帆后台参与活动任务，完成任务会发放</li>
-          <li><strong>商业化投广</strong>需要找商业化直客销售提供资质材料，走特批开白账户后才可以有投广资质。需要是企业主体、注册时间不少于三年，以及其他条件。都满足的话可以找商业化老师开白认证回收/售卖资质</li>
-          <li>我们（运营侧）扶持10w+场次，可以盘一下是否能冲刺单场10w+，如果可以的话就统计上报大场</li>
-        </ol>
-        <div class="tip-box">
-          <p><strong>ps：</strong>当然一般可以冲击10w场次的也不用统计上报，周会自然会筛选出来</p>
+      <div class="page" id="page-basicsop-3" data-page="basicsop-3">
+        <div class="page-header"><h1>（3）获取账号与店铺ID</h1><button class="back-btn" onclick="navigateTo('basicsop')">← 返回Basic SOP</button></div>
+        <div class="sop-detail">
+          <div class="tip-box">
+            <p><strong>账号ID获取方式：</strong>点击主页右上角 ➡️ 选择复制链接 ➡️ 转发到聊天框 ➡️ 点击链接 ➡️ 复制链接 ➡️ 再转发到聊天框 ➡️ 截取ID这一部分（位于 profile/ 和 ? 之间的这串字符）</p>
+            <p><strong>店铺ID获取方式：</strong>点击店铺，选择右上角...同上</p>
+            <p><strong>ps.</strong> 建议直接让商家发链接，由小助手截取ID</p>
+          </div>
         </div>
       </div>
 
-      <div id="basicsop-11" class="sop-item">
-        <h2>（11）10w+大场投流（旧）</h2>
-        <ol>
-          <li><strong>统计时间：</strong>每个月的大场在上个月月末统计</li>
-          <li><strong>统计人员：</strong>全体二奢商家（重点B4、B5、B6）</li>
-          <li><strong>具体流程：</strong>
+      <div class="page" id="page-basicsop-4" data-page="basicsop-4">
+        <div class="page-header"><h1>（4）商家反馈流量不好</h1><button class="back-btn" onclick="navigateTo('basicsop')">← 返回Basic SOP</button></div>
+        <div class="sop-detail">
+          <ol>
+            <li>提高笔记发布频次，绑定直播预告 — 提升账号整体曝光</li>
+            <li>直播间调整封面图片以及标题，更吸睛更突出利益点 — 提升直播间点击进房</li>
+            <li>直播间设置福利款漏价款、定点放漏 — 提升直播间留人率</li>
+            <li>每个整点自行补单，次日再退 — 优化直播间数据，提升算法推流</li>
+          </ol>
+          <div class="tip-box"><p><strong>Tips：</strong>想做店铺诊断可以看【Advanced SOP - 店铺数据分析】</p></div>
+        </div>
+      </div>
+
+      <div class="page" id="page-basicsop-5" data-page="basicsop-5">
+        <div class="page-header"><h1>（5）店铺主体变更、更换营业执照</h1><button class="back-btn" onclick="navigateTo('basicsop')">← 返回Basic SOP</button></div>
+        <div class="sop-detail">
+          <ol>
+            <li><p>需要收集商家的信息（发这段话术）：</p>
+              <div class="script-box">
+                <p><strong>【主体变更入口开白】</strong>提前给我以下信息，我这边走特批申请，中台固定每周二操作：</p>
+                <ul><li>账号ID（userid）</li><li>店铺ID</li><li>店铺名称</li><li>变更理由</li></ul>
+                <p><strong>注意：</strong></p>
+                <ol><li>变更当月不能操作提现，如果已经提过现则下个月再做申请</li>
+                <li>开白入口后按照链接里的流程步骤操作就行</li></ol>
+              </div>
+            </li>
+            <li>申请商家登记链接：二奢主体变更商家登记</li>
+            <li>OA申请链接：Redflow
+              <div class="tip-box"><p>备注：检查账号ID和店铺ID等信息后填OA；特批类型：入驻后→店铺主体变更；场景选择：跳过店铺类型校验</p></div>
+            </li>
+            <li>一周如果没有反馈，可以填催审登记表</li>
+            <li>审核通过后发送：【审核通过了，可以按照链接继续操作变更了】</li>
+          </ol>
+          <p><strong>ps.</strong> 更换营业执照就要走这个流程</p>
+        </div>
+      </div>
+
+      <div class="page" id="page-basicsop-6" data-page="basicsop-6">
+        <div class="page-header"><h1>（6）怎么联系商服</h1><button class="back-btn" onclick="navigateTo('basicsop')">← 返回Basic SOP</button></div>
+        <div class="sop-detail">
+          <div class="tip-box">
+            <p><strong>APP端：</strong>小红书APP - 右下角"我" - 左上角三栏 - 专业号中心 - 右上角"耳机"图标 - 发送"人工" - 点击"需要客服帮助" - 点击"联系人工"</p>
+            <p><strong>PC端：</strong>登陆商家管理后台（千帆） - 右下角"帮助"图标 - 即可联系商服</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="page" id="page-basicsop-7" data-page="basicsop-7">
+        <div class="page-header"><h1>（7）商业化开白</h1><button class="back-btn" onclick="navigateTo('basicsop')">← 返回Basic SOP</button></div>
+        <div class="sop-detail">
+          <div class="script-box">
+            <p>需要是企业主体、注册时间不少于三年，以及其他条件。都满足的话可以找商业化老师开白认证回收/售卖资质。</p>
+            <p>具体的看下这份材料：🍠小红书二奢入驻全流程 V2</p>
+          </div>
+          <p>可以直接看《百科全书》入驻的第五部分</p>
+        </div>
+      </div>
+
+      <div class="page" id="page-basicsop-8" data-page="basicsop-8">
+        <div class="page-header"><h1>（8）类目邀约申请（定邀）</h1><button class="back-btn" onclick="navigateTo('basicsop')">← 返回Basic SOP</button></div>
+        <div class="sop-detail">
+          <h3>老店入驻</h3>
+          <p>是否符合定邀资质需要check两个点：</p>
+          <ol><li>是否满足个体店或普企店（个人店不允准入，尽快去做主体升级）</li><li>在BI查他的二奢类目近30天dgmv是否≥5w</li></ol>
+          <h3>新店或原其他类目</h3>
+          <p>想做二奢就必须满足要求的资质（店铺类型和二奢类目交易门槛），同时商品挂到二奢类目底下走QIC鉴定。</p>
+          <h3>新店具体流程</h3>
+          <ol>
+            <li>先确认一下店铺、专业号是否完成操作</li>
+            <li>先看文档，具体的准入要求都在这里了，先申请，然后把补充信息和营业执照发给我</li>
+            <li>登陆鹰眼检索商家名称完成定邀申请</li>
+            <li>提示商家手动添加新类目（<strong>商家很容易忘！！！</strong>），然后进新的群聊</li>
+            <li>将信息登记在：登记表单1、登记表单2（现在使用）</li>
+            <li>3天登陆奥汀OA，看一下是否有被驳回的</li>
+          </ol>
+          <div class="highlight-box">
+            <h3>⚡ 提示：</h3>
+            <ul>
+              <li>要<strong>严格进行商家背调</strong>，包括但不限于收集商家仓库照片、其他平台链接、GMV截图、违规记录等</li>
+              <li>在填写表单的时候<strong>注意用词</strong>，直白语言表述</li>
+              <li>表单中填写的申请ID是上一个界面生成的5位<strong>短ID</strong></li>
+            </ul>
+          </div>
+          <div class="highlight-box">
+            <h3>📋 表单填写注意：</h3>
+            <ul>
+              <li>无其他经营平台，放【商家货架、仓库】必须有2张实体照片+证明</li>
+              <li>有其他经营平台且是同一主体，GMV放到【近6个月其他平台】，不需要写备注</li>
+              <li>有其他经营平台且是关联主体，GMV+关联证明放到【近6个月其他平台】，然后写备注</li>
+              <li>最下面要填写两个ID，然后到苍穹截取店铺图片补充到下面</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page" id="page-basicsop-9" data-page="basicsop-9">
+        <div class="page-header"><h1>（9）QIC加白与取消</h1><button class="back-btn" onclick="navigateTo('basicsop')">← 返回Basic SOP</button></div>
+        <div class="sop-detail">
+          <p>QIC开白每两周进行一次，具体话术如下：</p>
+          <div class="script-box">
+            <p>为了提高二奢重点商家经营效率、发货&履约时效、优化商家及用户体验，我们特向平台申请了二奢QIC白名单，进入白名单的商家无需再强制过平台QIC单单质检。</p>
+            <p><strong>白名单门槛及指标如下：</strong></p>
             <ol>
-              <li>登陆BI导出最新商家层级表</li>
-              <li>用腾讯文档制作大场统计表</li>
-              <li>转发到商家群，提醒商家填写</li>
-              <li>先粘贴到大场导入表（需要复制下来存到电脑中），然后导入到系统（苍穹）</li>
-              <li>如果有导入失败按照要求修改</li>
+              <li>主营类目为「二手奢侈品」</li>
+              <li>15天订单量≥10</li>
+              <li>14天正品质疑（就是假货售后）=0</li>
+              <li>近30天GMV≥20万</li>
+              <li>店铺分≥4.6</li>
+              <li>具备自主送检能力</li>
             </ol>
-          </li>
-        </ol>
-        <div class="tip-box">
-          <p><strong>提示：</strong>需要用到账号ID和主播ID，商家可能不会查询</p>
+            <p><strong>【请回复：是否申请加白免检】</strong></p>
+          </div>
+          <h3>注意事项</h3>
+          <ul>
+            <li>生效时间为当日，但一般反馈为下周一</li>
+            <li>取消开白的名单统计到表格中，同时上报给奥汀，奥汀会反馈给【治理】</li>
+          </ul>
+          <div class="tip-box"><p><strong>ps：</strong>名单两周一次，目前在讨论是否会取消QIC加白</p></div>
         </div>
       </div>
 
-      <div id="basicsop-12" class="sop-item">
-        <h2>（12）负反馈处置</h2>
-        <ol>
-          <li>核实负反馈情况是否属实，是店铺导致的还是商家导致的</li>
-          <li>处置判定与文档：品质负反馈处置咨询必读</li>
-          <li>判定属于【恶意差评】影响负反馈数据的，找 @植木(成芊林) 申请解除</li>
-        </ol>
-      </div>
-
-      <div id="basicsop-13" class="sop-item">
-        <h2>（13）海外直播申请</h2>
-        <ol>
-          <li>走OA，给商家发送以下字段：
-            <div class="script-box">
-              <ul>
-                <li>把以下材料发给我，我去提报：</li>
-                <li>小红书UID：</li>
-                <li>小红书昵称：</li>
-                <li>小红书粉丝数：</li>
-                <li>主播简介及申请原因：</li>
-                <li>申请期限（单场/长期）：</li>
-                <li>提供博主手持证件正面（尽量不要美颜且手持证件信息清晰可见），证件正反面（清晰、特写）。</li>
-              </ul>
-            </div>
-          </li>
-          <li>Redflow OA固定字段如图选择，垂类写二奢</li>
-        </ol>
-      </div>
-
-      <div id="basicsop-14" class="sop-item">
-        <h2>（14）大场投流</h2>
-        <p>大场投流包括两部分，一个是【直播卡】投流，一个是【笔记】投流，每天都需要做以下几个动作</p>
-        <div class="warning-box">
-          <p>⏰ <strong>操作时间：每天17:00操作，周五上周六、周日、周一的数据</strong></p>
-        </div>
-
-        <h3>步骤一：【苍穹 - 直播运营 - 直播计划盘点】</h3>
-        <div class="tip-box">
-          <p><strong>Tips：</strong>这部分会关联到【苍穹 - 直播运营 - 直播日历】，可以查看商家的达成情况</p>
-        </div>
-        <ol>
-          <li>奥汀账号打开操作平台 👉 苍穹</li>
-          <li>筛选第二天的直播信息，选择【待审批】、【待开播】、【奥汀】三个字段，金额根据最近活动要求，时间选择今天到后天</li>
-          <li>看商家信息，预判是否可以达成目标，如果可以就通过，如果觉得无法实现，就私信商家核实情况</li>
-        </ol>
-
-        <h3>步骤二：【曙光 - 直播计划】（笔记投流）</h3>
-        <ol>
-          <li>操作位置 👉 曙光</li>
-          <li>如图所示选择字段，【自定义时间】为今天到后天，主播ID填写重点主播ID名单（用英文逗号间隔），注意设置GMV范围，其他字段根据实际情况选择</li>
-          <li>只有创建直播计划才可以进行预告投放</li>
-          <li>日期从当前开始，时间越长投放效果越好，一般不超过3天；投放量为上限的三分之一；笔记数填最大值</li>
-          <li>填写完成后导出第二天的直播计划，待会儿第三步要用到</li>
-        </ol>
-
-        <h3>步骤三：【曙光 - 流量扶持 - 投流计划】（直播卡投流）</h3>
-        <ol>
-          <li>打开链接 👉 曙光</li>
-          <li>点击批量创建</li>
-          <li>填写前四列字段：
-            <ul>
-              <li>主播ID、开始时间从上一步下载的数据中复制粘贴</li>
-              <li>结束时间为当天23:59:59</li>
-              <li>预算小组为：扶持：电商行业/二奢</li>
-            </ul>
-          </li>
-          <li>建议此处先导入商家名单，操作见【f】步骤</li>
-          <li>下载结果查看未成功原因</li>
-          <li>若显示【主播不存在】，在【曙光 - 流量扶持 - 投流名单】中添加名单，名单就是上面第二步导出的商家ID，用空格分开，直接导入</li>
-        </ol>
-        <div class="tip-box">
-          <p><strong>Tips：</strong>不要超过200条；每天上传第二天的</p>
+      <div class="page" id="page-basicsop-10" data-page="basicsop-10">
+        <div class="page-header"><h1>（10）投广&投流</h1><button class="back-btn" onclick="navigateTo('basicsop')">← 返回Basic SOP</button></div>
+        <div class="sop-detail">
+          <ol>
+            <li><strong>流量卡</strong>可以自己在千帆后台参与活动任务，完成任务会发放</li>
+            <li><strong>商业化投广</strong>需要找商业化直客销售提供资质材料，走特批开白账户后才可以有投广资质</li>
+            <li>我们（运营侧）扶持10w+场次，可以盘一下是否能冲刺单场10w+，如果可以的话就统计上报大场</li>
+          </ol>
+          <div class="tip-box"><p><strong>ps：</strong>当然一般可以冲击10w场次的也不用统计上报，周会自然会筛选出来</p></div>
         </div>
       </div>
-    </section>
 
-    <!-- Advanced SOP -->
-    <section id="advancedsop" class="section">
-      <h1>五、Advanced SOP</h1>
-
-      <div class="sop-item">
-        <h2>（1）店铺信息查询</h2>
-        <p>当商家询问是不是有限流、违规的时候，可参考以下步骤进行店铺诊断：</p>
-        <ol>
-          <li>询问账号ID</li>
-          <li>用【审核百科全薯】的右侧工具栏查询
-            <ul>
-              <li>若商家非导流问题可以进行申诉，等待处理结果</li>
-              <li>若结果不可查看步骤3和4</li>
-            </ul>
-          </li>
-          <li>上【鹰眼】做诊断（店铺诊断）
-            <ul>
-              <li>重点看店铺违规分析和直播分析</li>
-              <li>黑盒处理不可透传，部分可以整改，有选择性的反馈给商家</li>
-              <li>结果无法查询，带账号信息戳【审核百科全薯】</li>
-            </ul>
-          </li>
-          <li>上【曙光】查询直播间（直播违规）
-            <ul>
-              <li>在【审核处置记录】中看是否有违规信息</li>
-              <li>曙光查询大部分是违规导流，导流处置跳转【四-(1)初次导流违规】</li>
-              <li>结果无法查询，带账号信息戳【审核百科全薯】，可能需要跳转【大商业-交易审核值班号】</li>
-            </ul>
-          </li>
-        </ol>
+      <div class="page" id="page-basicsop-11" data-page="basicsop-11">
+        <div class="page-header"><h1>（11）10w+大场投流（旧）</h1><button class="back-btn" onclick="navigateTo('basicsop')">← 返回Basic SOP</button></div>
+        <div class="sop-detail">
+          <ol>
+            <li><strong>统计时间：</strong>每个月的大场在上个月月末统计</li>
+            <li><strong>统计人员：</strong>全体二奢商家（重点B4、B5、B6）</li>
+            <li><strong>具体流程：</strong>登陆BI导出商家层级表 → 用腾讯文档制作大场统计表 → 转发到商家群填写 → 粘贴到大场导入表 → 导入到系统（苍穹）</li>
+          </ol>
+          <div class="tip-box"><p><strong>提示：</strong>需要用到账号ID和主播ID，商家可能不会查询</p></div>
+        </div>
       </div>
 
-      <div class="sop-item">
-        <h2>（2）店铺数据分析</h2>
-        <p>BI的数据助手可以对商家的店铺、账号、直播间从各维度进行分析，按需取用。但是他最后输出的分析不一定都对商家有价值，你要<strong>拣重点 & 转化成人话</strong>告诉商家该从哪些方面、如何优化。</p>
-        <div class="tip-box">
-          <p>👉 猛戳使用 <strong>RedBI 数据助手</strong></p>
+      <div class="page" id="page-basicsop-12" data-page="basicsop-12">
+        <div class="page-header"><h1>（12）负反馈处置</h1><button class="back-btn" onclick="navigateTo('basicsop')">← 返回Basic SOP</button></div>
+        <div class="sop-detail">
+          <ol>
+            <li>核实负反馈情况是否属实，是店铺导致的还是商家导致的</li>
+            <li>处置判定与文档：品质负反馈处置咨询必读</li>
+            <li>判定属于【恶意差评】影响负反馈数据的，找 @植木(成芊林) 申请解除</li>
+          </ol>
         </div>
       </div>
-    </section>
 
-    <!-- Technical Terms -->
-    <section id="terms" class="section">
-      <h1>六、Technical Terms</h1>
-      <p class="lead">专业术语速查表</p>
-
-      <div class="terms-grid">
-        <div class="term-card">
-          <h3>BT</h3>
-          <p>Brandtag，常记录为"BT纬度"。是指商业或营销分析中，用于衡量和定位品牌、产品的一个"维度"。可以被理解为一种<strong>专为品牌营销和用户管理而设计的标签体系</strong>。</p>
-        </div>
-        <div class="term-card">
-          <h3>闭环电商</h3>
-          <p>是当前内容平台商业化的核心战略方向，特指在<strong>同一个平台或生态体系内，完成从"内容种草"到"交易转化"的全过程</strong>，构建一个完整的用户消费路径与数据追踪闭环。</p>
-        </div>
-        <div class="term-card">
-          <h3>case</h3>
-          <p>需要分析处理的"案例"或"问题样本"。</p>
-        </div>
-        <div class="term-card">
-          <h3>CPM</h3>
-          <p>Cost Per Mille 的缩写，意为<strong>"千次展示成本"</strong>。它衡量的是广告每获得一千次曝光（展示）所花费的费用。</p>
-        </div>
-        <div class="term-card">
-          <h3>CTR</h3>
-          <p>Click-Through Rate 的缩写，即<strong>"点击率"</strong>。它衡量的是看到广告的人中，有多大比例被吸引并点击了广告。</p>
-        </div>
-        <div class="term-card">
-          <h3>DGMV</h3>
-          <p>日交易总额。</p>
-        </div>
-        <div class="term-card">
-          <h3>店播</h3>
-          <p>Store Broadcast / Brand Live，指<strong>品牌或商家</strong>自己开设直播间，由品牌员工或专属主播进行直播。这是品牌的"自营渠道"。</p>
-        </div>
-        <div class="term-card">
-          <h3>达播</h3>
-          <p>KOL Broadcast，指<strong>与达人/博主（KOL/KOC）合作</strong>，也叫K播。在其个人或机构的直播间进行产品推广和销售。</p>
-        </div>
-        <div class="term-card">
-          <h3>动销</h3>
-          <p>全称是"商品动销率"，是衡量零售业务健康度的一个<strong>核心指标</strong>。指在一定时间段内，<strong>有实际销售出库记录的商品品种数</strong>，占同期总库存商品品种数的比例。</p>
-        </div>
-        <div class="term-card">
-          <h3>灰度</h3>
-          <p><strong>分阶段、小范围、可控的产品发布或测试策略</strong>。这是一种<strong>风险控制机制</strong>。</p>
-        </div>
-        <div class="term-card">
-          <h3>involve</h3>
-          <p>强调<strong>"必然关联"或"必需条件"</strong>，involve某人表示的就是要和某人一起达成某种目的，需要和某人建联。</p>
-        </div>
-        <div class="term-card">
-          <h3>KFS</h3>
-          <p>K（Key Opinion Leader）+ F（Feed）+ S（Search）三种核心流量获取与转化方式的组合策略。<strong>将内容种草、付费放大和主动搜索承接结合起来，形成一个高效的营销闭环</strong>。</p>
-        </div>
-        <div class="term-card">
-          <h3>KSO</h3>
-          <p>KOL营销与内容种草领域的专业术语，主要在中国的内容电商平台（特别是小红书）上使用。指一种<strong>系统化、数据驱动的付费内容推广策略</strong>。</p>
-        </div>
-        <div class="term-card">
-          <h3>开白</h3>
-          <p>开设白名单，一般在主体变更或开展新的项目、流程时会出现这个词。</p>
-        </div>
-        <div class="term-card">
-          <h3>口径</h3>
-          <p>类比颗粒度。<br>• 在数据场景下：口径 = <strong>计算逻辑 + 统计范围</strong><br>• 在沟通场景下：口径 = <strong>标准答案 + 统一说法</strong></p>
-        </div>
-        <div class="term-card">
-          <h3>LTV</h3>
-          <p>Life Time Value（或 Customer Lifetime Value），译为<strong>"用户生命周期价值"或"客户终身价值"</strong>。衡量一个用户在与品牌或产品建立关系的整个周期内，为企业带来的总收入或总利润。</p>
-        </div>
-        <div class="term-card">
-          <h3>NPL</h3>
-          <p>NPL案例专栏，定位于内部案例的分享/交流。「N」代表笔记 「P」代表信任资产 「L」代表直播。一套基于过往运营经验总结得出的商家经营方法论框架。</p>
-        </div>
-        <div class="term-card">
-          <h3>年框</h3>
-          <p>指广告公司与品牌方或平台之间签订的、期限为一年的战略性合作协议。"500w年框"是指在营销、广告、内容创作等领域内，年度合作总预算为500万元人民币的长期大单。</p>
-        </div>
-        <div class="term-card">
-          <h3>QIC</h3>
-          <p>QIC质检服务是小红书平台为特定二手/全新奢侈商品提供的第三方质检服务（但其实源于抖音）。</p>
-        </div>
-        <div class="term-card">
-          <h3>透传</h3>
-          <p>一般讲做"（不）给商家透传"，是指将上游（通常是平台、服务商或系统）的信息，<strong>原封不动、不加修改地直接传递给下游的商家</strong>（或不告知商家）。</p>
-        </div>
-        <div class="term-card">
-          <h3>一方回传</h3>
-          <p>广告/数据领域最常用，指<strong>广告主/商家把自己第一方（自有）的用户行为、转化数据，主动回传给广告平台</strong>，用于优化广告模型、提升投放效果。</p>
-        </div>
-        <div class="term-card">
-          <h3>站外</h3>
-          <p>这里的"站"通常指品牌完成<strong>最终转化和销售的核心阵地</strong>，最常见的是电商平台（如天猫、京东）或品牌的官方商城/APP；"站外"则指在上述销售场域之外的<strong>内容与社交平台</strong>。</p>
-        </div>
-        <div class="term-card">
-          <h3>战败人群</h3>
-          <p>在企业的销售漏斗中，<strong>最终没有完成购买或转化的潜在客户</strong>。</p>
+      <div class="page" id="page-basicsop-13" data-page="basicsop-13">
+        <div class="page-header"><h1>（13）海外直播申请</h1><button class="back-btn" onclick="navigateTo('basicsop')">← 返回Basic SOP</button></div>
+        <div class="sop-detail">
+          <ol>
+            <li>走OA，给商家发送以下字段：
+              <div class="script-box">
+                <ul>
+                  <li>小红书UID：</li><li>小红书昵称：</li><li>小红书粉丝数：</li>
+                  <li>主播简介及申请原因：</li><li>申请期限（单场/长期）：</li>
+                  <li>提供博主手持证件正面（尽量不要美颜且手持证件信息清晰可见），证件正反面（清晰、特写）。</li>
+                </ul>
+              </div>
+            </li>
+            <li>Redflow OA固定字段如图选择，垂类写二奢</li>
+          </ol>
         </div>
       </div>
-    </section>
 
-    <!-- Q&A -->
-    <section id="qa" class="section">
-      <h1>七、Common Q&A</h1>
-
-      <div class="qa-item">
-        <div class="qa-question">Q：商家申请"QIC加白"，要怎么操作？</div>
-        <div class="qa-answer"><strong>A：</strong>不用操作，这个东西归【治理】操作，我们操作不了。</div>
+      <div class="page" id="page-basicsop-14" data-page="basicsop-14">
+        <div class="page-header"><h1>（14）大场投流</h1><button class="back-btn" onclick="navigateTo('basicsop')">← 返回Basic SOP</button></div>
+        <div class="sop-detail">
+          <p>大场投流包括两部分：【直播卡】投流 + 【笔记】投流，每天都需要操作。</p>
+          <div class="warning-box"><p>⏰ <strong>操作时间：每天17:00操作，周五上周六、周日、周一的数据</strong></p></div>
+          <h3>步骤一：【苍穹 - 直播运营 - 直播计划盘点】</h3>
+          <ol><li>奥汀账号打开操作平台 👉 苍穹</li><li>筛选第二天的直播信息，选择【待审批】、【待开播】、【奥汀】三个字段</li><li>看商家信息，预判是否可以达成目标</li></ol>
+          <h3>步骤二：【曙光 - 直播计划】（笔记投流）</h3>
+          <ol><li>操作位置 👉 曙光，选择字段，【自定义时间】为今天到后天</li><li>只有创建直播计划才可以进行预告投放</li><li>日期从当前开始，时间越长投放效果越好，一般不超过3天</li><li>填写完成后导出第二天的直播计划</li></ol>
+          <h3>步骤三：【曙光 - 流量扶持 - 投流计划】（直播卡投流）</h3>
+          <ol><li>点击批量创建，填写主播ID、开始时间、结束时间、预算小组</li><li>下载结果查看未成功原因</li><li>若显示【主播不存在】，在【曙光 - 流量扶持 - 投流名单】中添加名单</li></ol>
+          <div class="tip-box"><p><strong>Tips：</strong>不要超过200条；每天上传第二天的</p></div>
+        </div>
       </div>
 
-      <div class="qa-item">
-        <div class="qa-question">Q：佣金怎么收取，能否申请免佣？</div>
-        <div class="qa-answer"><strong>A：</strong>梯度收取佣金，具体梯度见下表（来源于商家经营方法一本通），免佣计划参考小红书电商学习中心。注意百万免佣政策全平台性质的、是一次性的，一个主体只能享受一次，不是随随便便说申请就能申请的，在免佣计划结束之后就是阶梯佣金。</div>
+      <!-- ===== Advanced SOP ===== -->
+      <div class="page" id="page-advancedsop" data-page="advancedsop">
+        <div class="page-header"><h1>🚀 Advanced SOP</h1><p class="page-desc">进阶技能：店铺查询与数据分析</p></div>
+        <div class="sop-detail-card">
+          <h2>（1）店铺信息查询</h2>
+          <p>当商家询问是不是有限流、违规的时候，可参考以下步骤进行店铺诊断：</p>
+          <ol>
+            <li>询问账号ID</li>
+            <li>用【审核百科全薯】的右侧工具栏查询
+              <ul><li>若商家非导流问题可以进行申诉，等待处理结果</li><li>若结果不可查看步骤3和4</li></ul>
+            </li>
+            <li>上【鹰眼】做诊断（店铺诊断）
+              <ul><li>重点看店铺违规分析和直播分析</li><li>黑盒处理不可透传，部分可以整改，有选择性的反馈给商家</li></ul>
+            </li>
+            <li>上【曙光】查询直播间（直播违规）
+              <ul><li>在【审核处置记录】中看是否有违规信息</li><li>曙光查询大部分是违规导流</li></ul>
+            </li>
+          </ol>
+        </div>
+        <div class="sop-detail-card">
+          <h2>（2）店铺数据分析</h2>
+          <p>BI的数据助手可以对商家的店铺、账号、直播间从各维度进行分析。你要<strong>拣重点 & 转化成人话</strong>告诉商家该从哪些方面、如何优化。</p>
+          <div class="tip-box"><p>👉 猛戳使用 <strong>RedBI 数据助手</strong></p></div>
+        </div>
       </div>
 
-      <div class="qa-item">
-        <div class="qa-question">Q：为什么直播封面会自动更换？</div>
-        <div class="qa-answer"><strong>A：</strong>设置直播计划的时候有系统自动生成的直播标题和封面，不改的话，直播的时候一关联直播计划就会自动变。</div>
+      <!-- ===== 专业术语 ===== -->
+      <div class="page" id="page-terms" data-page="terms">
+        <div class="page-header"><h1>📚 Technical Terms</h1><p class="page-desc">专业术语速查表</p></div>
+        <div class="terms-grid">
+          <div class="term-card"><h3>BT</h3><p>Brandtag，专为品牌营销和用户管理而设计的<strong>标签体系</strong>。</p></div>
+          <div class="term-card"><h3>闭环电商</h3><p>在<strong>同一个平台内完成从"内容种草"到"交易转化"的全过程</strong>。</p></div>
+          <div class="term-card"><h3>case</h3><p>需要分析处理的"案例"或"问题样本"。</p></div>
+          <div class="term-card"><h3>CPM</h3><p>Cost Per Mille，<strong>"千次展示成本"</strong>。</p></div>
+          <div class="term-card"><h3>CTR</h3><p>Click-Through Rate，<strong>"点击率"</strong>。</p></div>
+          <div class="term-card"><h3>DGMV</h3><p>日交易总额。</p></div>
+          <div class="term-card"><h3>店播</h3><p>品牌或商家<strong>自己开设直播间</strong>，由品牌员工或专属主播进行。</p></div>
+          <div class="term-card"><h3>达播</h3><p>与<strong>达人/博主（KOL/KOC）合作</strong>，也叫K播。</p></div>
+          <div class="term-card"><h3>动销</h3><p><strong>有实际销售出库记录的商品品种数</strong>占同期总库存品种数的比例。</p></div>
+          <div class="term-card"><h3>灰度</h3><p><strong>分阶段、小范围、可控</strong>的产品发布或测试策略。</p></div>
+          <div class="term-card"><h3>involve</h3><p>强调<strong>"必然关联"或"必需条件"</strong>，involve某人表示需要和某人建联。</p></div>
+          <div class="term-card"><h3>KFS</h3><p>KOL + Feed + Search，<strong>内容种草、付费放大和搜索承接</strong>的组合策略。</p></div>
+          <div class="term-card"><h3>KSO</h3><p>KOL营销与内容种草领域的<strong>系统化、数据驱动的付费内容推广策略</strong>。</p></div>
+          <div class="term-card"><h3>开白</h3><p>开设白名单，一般在主体变更或开展新的项目时出现。</p></div>
+          <div class="term-card"><h3>口径</h3><p>数据场景下 = <strong>计算逻辑 + 统计范围</strong>；沟通场景下 = <strong>标准答案 + 统一说法</strong>。</p></div>
+          <div class="term-card"><h3>LTV</h3><p><strong>"用户生命周期价值"</strong>，衡量一个用户在整个周期内为企业带来的总收入或总利润。</p></div>
+          <div class="term-card"><h3>NPL</h3><p>「N」笔记「P」信任资产「L」直播。一套商家经营<strong>方法论框架</strong>。</p></div>
+          <div class="term-card"><h3>年框</h3><p>广告公司与品牌方签订的、期限为一年的<strong>战略性合作协议</strong>。</p></div>
+          <div class="term-card"><h3>QIC</h3><p>小红书平台为特定二手/全新奢侈商品提供的<strong>第三方质检服务</strong>。</p></div>
+          <div class="term-card"><h3>透传</h3><p>将上游信息<strong>原封不动、不加修改地直接传递给下游</strong>的商家（或不告知）。</p></div>
+          <div class="term-card"><h3>一方回传</h3><p><strong>广告主把自己第一方的用户行为数据回传给广告平台</strong>，用于优化广告模型。</p></div>
+          <div class="term-card"><h3>站外</h3><p>指在销售场域之外的<strong>内容与社交平台</strong>。</p></div>
+          <div class="term-card"><h3>战败人群</h3><p>在企业的销售漏斗中，<strong>最终没有完成购买或转化的潜在客户</strong>。</p></div>
+        </div>
       </div>
 
-      <div class="qa-item">
-        <div class="qa-question">Q：常见的类目问题怎么处理？</div>
-        <div class="qa-answer"><strong>A：</strong>参考2026商品工业类目调整及准入概览、交易类目调整/治理规则&产品改造等文档。</div>
+      <!-- ===== Q&A ===== -->
+      <div class="page" id="page-qa" data-page="qa">
+        <div class="page-header"><h1>❓ Common Q&A</h1><p class="page-desc">常见问题解答</p></div>
+        <div class="qa-list">
+          <div class="qa-item"><div class="qa-q">商家申请"QIC加白"，要怎么操作？</div><div class="qa-a">不用操作，这个东西归【治理】操作，我们操作不了。</div></div>
+          <div class="qa-item"><div class="qa-q">佣金怎么收取，能否申请免佣？</div><div class="qa-a">梯度收取佣金，具体梯度见商家经营方法一本通。注意百万免佣政策全平台性质的、是一次性的，一个主体只能享受一次。</div></div>
+          <div class="qa-item"><div class="qa-q">为什么直播封面会自动更换？</div><div class="qa-a">设置直播计划的时候有系统自动生成的直播标题和封面，不改的话，直播的时候一关联直播计划就会自动变。</div></div>
+          <div class="qa-item"><div class="qa-q">常见的类目问题怎么处理？</div><div class="qa-a">参考2026商品工业类目调整及准入概览、交易类目调整/治理规则&产品改造等文档。</div></div>
+        </div>
       </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <p>🍠 2026 实习生 SOP — 小红书二奢商家运营</p>
-      <p>欢迎参与文档共建 😄</p>
-    </footer>
-  </main>
+      <!-- Footer -->
+      <footer class="content-footer">
+        <p>🍠 2026 实习生 SOP — 小红书二奢商家运营</p>
+        <p>欢迎参与文档共建 😄</p>
+      </footer>
+    </main>
+  </div>
 
   <script src="script.js"></script>
 </body>
